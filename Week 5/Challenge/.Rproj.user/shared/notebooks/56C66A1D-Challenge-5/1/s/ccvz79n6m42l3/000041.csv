@@ -1,0 +1,8 @@
+"0","# Enter code here"
+"0","library(magick)"
+"0","input <- function(path, text) {"
+"0","  giraffe <- image_read(path)"
+"0","print(giraffe)"
+"0","image_annotate(giraffe, print(paste0(text)), size = 49, gravity = ""southwest"", color = ""green"")"
+"0","}"
+"0","input(""C:/Users/Cheeting/OneDrive/Pictures/giraffe.jfif"",""i love grass"")                                                                         "

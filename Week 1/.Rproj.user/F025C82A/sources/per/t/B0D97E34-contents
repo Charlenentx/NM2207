@@ -1,0 +1,16 @@
+---
+title: "Challenge-1"
+author: "Charlene"
+date: '2023-08-16'
+output: html_document
+---
+Hello, I'm Chee Ting but you can call me Charlene. I'm a Year 2 Economics student and hopes to minor in IMD :)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r, out.height= "350px",out.width= "800px",echo=FALSE,eval=TRUE,fig.cap="Week 1 Challenge"}
+knitr::include_graphics("C:/Users/Cheeting/OneDrive/Pictures/NM2207 Challenge-1.png") 
+```
+
+

@@ -1,0 +1,5 @@
+"0","# Enter code here"
+"0","comm_data %>%"
+"0","  mutate(label= ifelse(sentiment>0, 'Positive',"
+"0","                       ifelse(sentiment<0, 'Nagative', 'Neutral')"
+"0","  ))"

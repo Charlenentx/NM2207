@@ -1,0 +1,4 @@
+"0","# Enter code here"
+"0",""
+"0","library(magick)"
+"0","text<-readline(prompt=""Enter Text"")"
