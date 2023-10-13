@@ -1,0 +1,2 @@
+"0","ggplot(loans, aes(x = annual_income)) +"
+"0","geom_boxplot()"

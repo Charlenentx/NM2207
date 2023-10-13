@@ -1,0 +1,45 @@
+"0",""
+"0","scale_colour_viridis_d()"
+"1","<ggproto object: Class ScaleDiscrete, Scale, gg>
+    aesthetics: colour
+    axis_order: function
+    break_info: function
+    break_positions: function
+    breaks: waiver
+    call: call
+    clone: function
+    dimension: function
+    drop: TRUE
+    expand: waiver
+    get_breaks: function
+    get_breaks_minor: function
+    get_labels: function
+    get_limits: function
+    guide: legend
+    is_discrete: function
+    is_empty: function
+    labels: waiver
+    limits: NULL
+    make_sec_title: function
+    make_title: function
+    map: function
+    map_df: function
+    n.breaks.cache: NULL
+    na.translate: TRUE
+    na.value: NA
+    name: waiver
+    palette: function
+    palette.cache: NULL
+    position: left
+    range: environment
+    rescale: function
+    reset: function
+    scale_name: viridis_d
+    train: function
+    train_df: function
+    transform: function
+    transform_df: function
+    super:  <ggproto object: Class ScaleDiscrete, Scale, gg>"
+"1",""
+"1","
+"

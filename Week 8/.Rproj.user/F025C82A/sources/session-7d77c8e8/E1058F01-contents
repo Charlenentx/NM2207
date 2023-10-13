@@ -1,0 +1,16 @@
+---
+title: "Shiny app"
+author: "Chee Ting"
+date: "2023-10-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+```{r, eval=TRUE,echo=TRUE}
+library(shiny)
+
+```
