@@ -1,0 +1,30 @@
+---
+title: "Data"
+---
+
+Work in Progress...
+
+```{r}
+#| out.width: "80%"
+#| label: fig-airquality
+#| fig-cap: Temperature and ozone level.
+#| warning: false
+#| eval: FALSE
+
+library(tidyverse)
+read_csv("Data/Inflation_rate_in_Asia.csv")
+inflatn_asia <- read_csv("Data/Inflation_rate_in_Asia.csv")
+
+tidyinflatn_asia<- inflatn_asia %>%
+  group_by(Subregion) %>%
+  summarise(Average_inflation = mean(Inflation))
+
+tidyinflatn_asia
+
+ggplot(tidyinflatn_asia, aes(x = Year, y = Average_Inflation, colour = Subregion)) +
+geom_point() +
+geom_line(aes(group = Subregion))+ scale_colour_viridis_d()
+
+
+
+```

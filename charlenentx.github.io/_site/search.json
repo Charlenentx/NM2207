@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Charlene Ng",
+    "section": "",
+    "text": "Hello everyone! I’m Charlene (a.k.a Chee Ting). Welcome to my webpage specially curated for NM2207!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Data",
+    "section": "",
+    "text": "Work in Progress…\n\nlibrary(tidyverse)\nread_csv(\"Data/Inflation_rate_in_Asia.csv\")\ninflatn_asia &lt;- read_csv(\"Data/Inflation_rate_in_Asia.csv\")\n\ntidyinflatn_asia&lt;- inflatn_asia %&gt;%\n  group_by(Subregion) %&gt;%\n  summarise(Average_inflation = mean(Inflation))\n\ntidyinflatn_asia\n\nggplot(tidyinflatn_asia, aes(x = Year, y = Average_Inflation, colour = Subregion)) +\ngeom_point() +\ngeom_line(aes(group = Subregion))+ scale_colour_viridis_d()"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Charlene Ng",
+    "section": "Education",
+    "text": "Education\nNational University of Singapore | Bachelor of Social Sciences in Economics, Minor in Data Analytics| Aug 2022 - Present\nNational Junior College | Jan 2020 - Dec 2021"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Charlene Ng",
+    "section": "Experience",
+    "text": "Experience\nAchievers Journey Tuition Centre | Admin Assistant | Aug 2022 - Present\nTan Tock Seng Hospital | Human Resource Assistant | May 2023 - July 2023, March 2022 - July 2022"
+  },
+  {
+    "objectID": "index.html#cca-and-volunteer-experiences",
+    "href": "index.html#cca-and-volunteer-experiences",
+    "title": "Charlene Ng",
+    "section": "CCA and Volunteer Experiences",
+    "text": "CCA and Volunteer Experiences\nNUS CSC Clementi Youth Sparks | Volunteer | Aug 2023 - Present\nNUS Arts Production Crew | Member | Aug 2023 - Present\nNUS Economics Camp 2023 | General Secretary | October 2022 - Aug 2023\nNUS Red Cross Youth Project Rice+ | District Head | October 2022 - Aug 2023"
+  },
+  {
+    "objectID": "index.html#Education",
+    "href": "index.html#Education",
+    "title": "Charlene Ng",
+    "section": "Education",
+    "text": "Education\nNational University of Singapore | Bachelor of Social Sciences in Economics, Minor in Data Analytics| Aug 2022 - Present\nNational Junior College | Jan 2020 - Dec 2021"
+  },
+  {
+    "objectID": "index.html#Experience",
+    "href": "index.html#Experience",
+    "title": "Charlene Ng",
+    "section": "Experience",
+    "text": "Experience\nAchievers Journey Tuition Centre | Admin Assitant | Aug 2022 - Present\nTan Tock Seng Hospital | Human Resource Assistant | May 2023 - July 2023, March 2022 - July 2022"
+  },
+  {
+    "objectID": "index.html#cca-and-volunteer-experiences-cca-and-volunteer-experiences-stylecolor-green",
+    "href": "index.html#cca-and-volunteer-experiences-cca-and-volunteer-experiences-stylecolor-green",
+    "title": "Charlene Ng",
+    "section": "CCA and Volunteer Experiences {#CCA and Volunteer Experiences style=“color: green”}",
+    "text": "CCA and Volunteer Experiences {#CCA and Volunteer Experiences style=“color: green”}\nNUS CSC Clementi Youth Sparks | Volunteer | Aug 2023 - Present\nNUS Arts Production Crew | Member | Aug 2023 - Present\nNUS Economics Camp 2023 | General Secretary | October 2022 - Aug 2023\nNUS Red Cross Youth Project Rice+ | District Head | October 2022 - Aug 2023"
+  }
+]

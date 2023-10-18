@@ -1,0 +1,14 @@
+{
+  "hash": "4083aa345f2cf94bb81ae7f7da31aa78",
+  "result": {
+    "markdown": "---\ntitle: \"Data\"\n---\n\n\nWork in Progress...\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nread_csv(\"Data/Inflation_rate_in_Asia.csv\")\ninflatn_asia <- read_csv(\"Data/Inflation_rate_in_Asia.csv\")\n\ntidyinflatn_asia<- inflatn_asia %>%\n  group_by(Subregion) %>%\n  summarise(Average_inflation = mean(Inflation))\n\ntidyinflatn_asia\n\nggplot(tidyinflatn_asia, aes(x = Year, y = Average_Inflation, colour = Subregion)) +\ngeom_point() +\ngeom_line(aes(group = Subregion))+ scale_colour_viridis_d()\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
