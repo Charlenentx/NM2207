@@ -1,0 +1,16 @@
+---
+title: "Final Project Submission - Week 9"
+author: "Chee Ting"
+date: "2023-10-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+**Week 9**
+
+1) The topic that I have chosen for this project will be "Inflation". For this project, I will be investigating inflation rates worldwide and most importantly Singapore, analysing its global trends and the factors contributing to its rise or fall.
+
+2) The data sources that I have curated so far are Inflation data by International Monetary Fund and Core Inflation of Singapore by Monetary Authority of Singapore.
+

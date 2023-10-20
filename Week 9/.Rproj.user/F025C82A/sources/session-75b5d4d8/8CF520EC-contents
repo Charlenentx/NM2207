@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Welcome to my webpage"
+  navbar: 
+    left:
+      - text: "Menu"
+        menu:
+          - href: index.qmd
+            text: Introduction
+          - about.qmd
+      - href: index.qmd
+        text: Introduction
+      - href: about.qmd
+        text: Data draft
+      - href: Data.qmd
+      
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+editor: visual
+
