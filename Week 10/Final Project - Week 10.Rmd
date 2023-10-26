@@ -1,0 +1,51 @@
+---
+title: "Final Project Submission - Week 10"
+author: "Chee Ting"
+date: "2023-10-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+**Week 9**
+
+1) The topic that I have chosen for this project will be "Inflation". For this project, I will be investigating inflation rates worldwide and most importantly Singapore, analysing its global trends and the factors contributing to its rise or fall.
+
+2) The data sources that I have curated so far are Inflation data by International Monetary Fund and Core Inflation of Singapore by Monetary Authority of Singapore.
+
+
+**Week 10**
+
+1) Why is inflation happening in Singapore?
+
+
+2) 
+- According to Monetary Authority Singapore,inflation affects many areas of the economy hence there is a need to understand inflation to secure a low and stable inflation in the Singapore economy over time.
+- Singapore has the second highest inflation rate in 2023 among the ASEAN 5 countries according to the data provided by International Monetary Fund.
+- Inflation in Singapore has been persistently growing according to data from Monetary Authority Singapore.
+
+
+
+3) For the dataset "Inflation_world", I will be using the columns of 'region' and 'Inflation_rate'.
+
+```{r, eval=TRUE,echo=FALSE}
+library(tidyverse)
+read_csv("Inflation_world.csv")
+```
+For the dataset "ASEAN_5_IMF", I will be using the columns of 'Year', 'Inflation_rate' and 'Country'.
+```{r, eval=TRUE,echo=FALSE}
+
+read_csv("Asean_5_IMF.csv")
+```
+For the dataset "Inflation_SG", I will be using the columns of 'Year' and 'Inflation_rate'.
+```{r, eval=TRUE,echo=FALSE}
+
+read_csv("Inflation_SG_IMF.csv")
+
+```
+For the dataset "CPI_goods", I will be using the columns of 'Goods' and 'Weights'.
+```{r, eval=T,echo=FALSE}
+read_csv("CPI_goods_singstat.csv")
+
+```
