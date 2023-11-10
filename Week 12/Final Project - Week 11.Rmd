@@ -1,0 +1,110 @@
+---
+title: "Final Project Submission - Week 12"
+author: "Chee Ting"
+date: "2023-10-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+**Week 9**
+
+1) The topic that I have chosen for this project will be "Inflation". For this project, I will be investigating inflation rates worldwide and most importantly Singapore, analysing its global trends and the factors contributing to its rise or fall.
+
+2) The data sources that I have curated so far are Inflation data by International Monetary Fund and Core Inflation of Singapore by Monetary Authority of Singapore.
+
+
+**Week 10**
+
+1) 
+Why is inflation happening in Singapore?
+
+
+2) 
+- According to Monetary Authority Singapore,inflation affects many areas of the economy hence there is a need to understand inflation to secure a low and stable inflation in the Singapore economy over time.
+- Singapore has the second highest inflation rate in 2023 among the ASEAN 5 countries according to the data provided by International Monetary Fund.
+- Inflation in Singapore has been persistently growing according to data from Monetary Authority Singapore.
+
+
+
+3) For the dataset "Inflation_world", I will be using the columns of 'region' and 'Inflation_rate'.
+
+```{r, eval=TRUE,echo=FALSE}
+library(tidyverse)
+read_csv("Inflation_world.csv")
+```
+For the dataset "ASEAN_5_IMF", I will be using the columns of 'Year', 'Inflation_rate' and 'Country'.
+```{r, eval=TRUE,echo=FALSE}
+
+read_csv("Asean_5_IMF.csv")
+```
+For the dataset "Inflation_SG", I will be using the columns of 'Year' and 'Inflation_rate'.
+```{r, eval=TRUE,echo=FALSE}
+
+read_csv("Inflation_SG_IMF.csv")
+
+```
+For the dataset "CPI_goods", I will be using the columns of 'Goods' and 'Weights'.
+```{r, eval=T,echo=FALSE}
+read_csv("CPI_goods_singstat.csv")
+
+```
+
+One challenge I faced was to clean and format the dataset such that R can read my data. For example, in the dataset "ASEAN_5_IMF", 'country' and 'year' were initally in rows instead of columns and hence R was not able to read and produce the result that I want. It took me a very long time trying to figure out the problem and find the best way to edit the Excel to get the end result. Another challenge I faced was to think of the question that I want to answer. The question cannot be too broad or too narrow as it will affect the rest of my data story. Therefore, to think of one, I need to exercise forward thinking and plan how the rest of my project will turn out so that I can achieve an organised data story that make sense.
+
+
+
+**Week 11**
+
+Question 1:
+
+1) Choropleth Map (Inflation Rate of every country) - To illustrate that inflation rate is a worldwide issue and hence shows the importance for inflation to be tackled.
+2) Multiple Line graph to compare the trend between the ASEAN 5 countries (X: Year, Y: Inflation Rate) - To show how Singapore has the second highest inflation rate in 2023 among the ASEAN 5 countries
+3) Pie Chart (Consumer Price Inflation (CPI) Weights of  each goods or service) -  To show the relative importance of each good or service in the basket.
+4) Multiple Line graph to compare the trend of CPI between the different type of goods in Singapore (X: Year, Y: CPI) - Compare the average price changes of a goods and services over time and determine which goods or services fluctuate the most.
+
+
+Question 2:
+
+1. Choropleth Map: Shiny & Leaflet
+- A world map that shows and compare the inflation rates of every country for each year using different degree of colours and a slider that allow user to change the year. 
+
+2. Multiple Line graph: Shiny 
+- Select input menu that allow users to choose the countries that they want to plot.
+- Slider to allow the user to choose the year interval
+
+3. Pie Chart: Shiny
+- Slider to allow the user to choose the year that they want to visualise 
+
+4. Multiple Line graph: Shiny
+- Select input menu that allow users to choose the type of goods that they want to plot.
+- Slider to allow the user to choose the year interval
+
+Question 3:
+
+```{r, eval=TRUE,echo=FALSE}
+
+
+library(tibble)
+tribble(
+  ~Concepts, ~Week,  
+  "Choropleth map", "NA",   
+  "Slider", "8" , 
+  "Select input menu", "NA",
+  "Line graph", "NA",
+  "Pie-chart", "NA" 
+)
+
+```
+
+Challenges:
+
+As I was planning on how my datasets can come together to form a data story, I realised that it is very difficult to answer the question that i have set last week as my datasets are too specific for that question. Hence, I have decided to change my question to: Which type of goods contribute the most to the inflation in Singapore.
+
+When I was considering how interactive I want my data to be, I found it challenging to envision the ideal format for my data visualisations. Striking the right balance was difficult, as it cannot be too simple and at the same time too complex for me to code. In light of this situation, I decided to explore various data visualisations and interactive options available on the internet. Eventually, I identified the most suitable ones that aligned with my specific needs and preferences.
+
+**Week 12**
+
+The main challenge that I faced this week was when I made modifications to my Shiny app and attempted to re-publish it, an error unexpectedly occurred. Despite multiple attempts, both on my own and with the assistance of TAs, the cause of the problem became clear only after some time. It was determined that the error was due to my wrong placement of the data files, rendering them undetectable by Shiny.
+
