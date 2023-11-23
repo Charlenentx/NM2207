@@ -185,10 +185,10 @@ the Russia-Ukraine war which has caused supply chain disruptions.
 
 In December of the previous year, Singapore secured the top spot as the
 most expensive city in the world (Economist Intelligence Unit, 2022).
-Headline inflation also surged by 3.8% from 2021, reaching 6.1% in 2022
-(Department of Statistics Singapore, 2022).
+Singapore's core inflation also reached 5.4% Year-on-Year Growth in the
+first quarter of 2023 (Monetary Authority Singapore, 2023).
 
-Inflation has led to a decline in the purchasing power of families,
+Inflation can lead to a decline in the purchasing power of families,
 particularly impacting the standards of living for low-income families
 who are facing difficulty in meeting basic living expenses, thereby
 exerting adverse effects on their mental and physical well-being.
@@ -228,16 +228,16 @@ inflation in Singapore.
 
 (4) **Insights and depiction of data**
 
-![](Global%20inflation.png){width="478"}
+    ![](Images for Final Writeup/Global inflation.png){width="589"}
 
-Source: International Monetary Fund, 2023
+    Source: International Monetary Fund, 2023
 
 The Choropleth map above provides a visual representation of global
 inflation rates using colors to depict varying levels. A majority of the
 countries have an average inflation rate falling within the 5-10% range,
 reiterating the widespread nature of the issue that needs to be tackled.
 
-![](ASEAN-5.png){width="568"}
+![](Images for Final Writeup/ASEAN-5.png){width="534"}
 
 Source: International Monetary Fund, 2023
 
@@ -246,7 +246,7 @@ ASEAN-5 countries. All countries experienced a surge in their inflation
 starting from 2020. In 2023, Singapore is placed 2nd among the ASEAN
 nations.
 
-![](CPI%20goods.png){width="624"}
+![](Images for Final Writeup/CPI goods.png)
 
 Source: Department of Statistics Singapore, 2023
 
@@ -255,10 +255,11 @@ services. Within this category, Transport experienced the most
 significant surge in prices, followed by Food excluding food serving
 services and Food serving services.
 
-![Main Categories of CPI weighing
-pattern](weights_main.png){width="383"}
+![Main
+Categories](Images for Final Writeup/weights_main.png){width="421"}
 
-![Sub-categories of Transport](weights_sub.png){width="368"}
+![Sub-categories of
+Transport](Images for Final Writeup/weights_sub.png){width="414"}
 
 Source: Department of Statistics Singapore, 2023
 
@@ -330,10 +331,6 @@ appealing presentation of the data on my webpage.
 **Reference**
 
 \
-Department of Statistics Singapore. (2022). Consumer Price Index.
-Infographics. Retrieved November 12, 2023, from
-<https://www.singstat.gov.sg/modules/infographics/consumer-price-index>
-
 Department of Statistics Singapore (2023). SingStat Table Builder.
 Retrieved November 12, 2023, from
 <https://tablebuilder.singstat.gov.sg/table/TS/M213151>
@@ -348,3 +345,7 @@ International Monetary Fund (2023). Datasets. Retrieved November 13,
 Monetary Authority of Singapore (2023). Inflation was high in 2022.
 Retrieved November 13, 2023, from
 <https://www.mas.gov.sg/monetary-policy/economics-edu-inflation/inflation/inflation-was-high-in-2022>
+
+Monetary Authority of Singapore (2023). MAS Core Inflation and Notes to
+Selected CPI Categories. Retrieved November 23, 2023, from
+<https://www.mas.gov.sg/statistics/mas-core-inflation-and-notes-to-selected-cpi-categories>
