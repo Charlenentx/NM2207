@@ -1,3 +1,0 @@
-"0","tidydata %>%"
-"0","group_by(year) %>%"
-"0","summarize(total_cases = sum(cases))"
